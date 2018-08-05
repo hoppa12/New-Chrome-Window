@@ -13,7 +13,6 @@
         chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) 
         {
              let url = tabs[0].url
-             console.log("e", e.target.textContent)
              let height;
              let width;
              if(e.target.textContent.trim() === "Iphone")
