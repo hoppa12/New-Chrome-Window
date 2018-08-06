@@ -4,17 +4,18 @@
         let url = tabs[0].url;
         let height;
         let width;
-        if (e.target.textContent.trim() === "Iphone") {
+        let text = e.target.textContent.trim()
+        if (text === "Iphone") {
           width = 500;
           height = 800;
         }
   
-        if (e.target.textContent.trim() === "Ipad") {
+        if (text === "Ipad") {
           width = 900;
           height = 1200;
         }
   
-        if (e.target.textContent.trim() === "Ipad Width") {
+        if (text === "Ipad Width") {
           width = 1500;
           height = 500;
         }
